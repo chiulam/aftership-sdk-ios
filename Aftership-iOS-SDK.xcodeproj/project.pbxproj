@@ -12,6 +12,8 @@
 		16645D46198F79F4006F1F39 /* TrackingRequestsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFABF0ADCF71435C8F1AA0C6 /* TrackingRequestsTests.m */; };
 		16645D47198F79F7006F1F39 /* LastCheckpointRequestTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FFABF9C0D03BC5431CF5E3D5 /* LastCheckpointRequestTest.m */; };
 		5FCA4A82026944DDB86EA35B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC14602013C4F17BC160B19 /* libPods.a */; };
+		A724AF6C4906D0376044B209 /* libPods-Aftership-iOS-SDK-Aftership-iOS-SDKTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4AB880DE0585AC40284B8A /* libPods-Aftership-iOS-SDK-Aftership-iOS-SDKTests.a */; };
+		B88FF470B1AA071CE4BA6587 /* libPods-Aftership-iOS-SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B26DA77302F44F42C7EF17 /* libPods-Aftership-iOS-SDK.a */; };
 		FFABF0428E036B6B924F8545 /* AftershipError.m in Sources */ = {isa = PBXBuildFile; fileRef = FFABF0272B16871250382D05 /* AftershipError.m */; };
 		FFABF0BCCEB0EC90BF7014D8 /* AftershipRetrackTrackingRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FFABFEE733E2A61F1F85A21A /* AftershipRetrackTrackingRequest.m */; };
 		FFABF0CE4A633EC09897A27B /* AftershipGetUserCouriersRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FFABF717ED4D63F325684B58 /* AftershipGetUserCouriersRequest.m */; };
@@ -74,6 +76,10 @@
 
 /* Begin PBXFileReference section */
 		37A8C0CBA5861A773C570748 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		4E4AB880DE0585AC40284B8A /* libPods-Aftership-iOS-SDK-Aftership-iOS-SDKTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Aftership-iOS-SDK-Aftership-iOS-SDKTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A615BF844B41AADFF1F6A0F /* Pods-Aftership-iOS-SDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aftership-iOS-SDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aftership-iOS-SDK/Pods-Aftership-iOS-SDK.release.xcconfig"; sourceTree = "<group>"; };
+		B4BD737688545729744D30FB /* Pods-Aftership-iOS-SDK-Aftership-iOS-SDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aftership-iOS-SDK-Aftership-iOS-SDKTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aftership-iOS-SDK-Aftership-iOS-SDKTests/Pods-Aftership-iOS-SDK-Aftership-iOS-SDKTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C73E5EEA42CC090FE728086C /* Pods-Aftership-iOS-SDK-Aftership-iOS-SDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aftership-iOS-SDK-Aftership-iOS-SDKTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aftership-iOS-SDK-Aftership-iOS-SDKTests/Pods-Aftership-iOS-SDK-Aftership-iOS-SDKTests.release.xcconfig"; sourceTree = "<group>"; };
 		C852A5231C3E4E0700B49AFC /* AftershipApiKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AftershipApiKey.h; sourceTree = "<group>"; };
 		C8CAF6C61C3DFD6E00107FF1 /* libRXPromise.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRXPromise.a; path = "Pods/../build/Debug-iphoneos/libRXPromise.a"; sourceTree = "<group>"; };
 		C8CAF6C81C3DFD7200107FF1 /* libRestKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRestKit.a; path = "Pods/../build/Release-iphoneos/libRestKit.a"; sourceTree = "<group>"; };
@@ -82,6 +88,8 @@
 		C8CAF6CE1C3DFD8D00107FF1 /* libTransitionKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTransitionKit.a; path = "Pods/../build/Release-iphoneos/libTransitionKit.a"; sourceTree = "<group>"; };
 		C8CAF6D01C3DFD9B00107FF1 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		C8CAF6D21C3DFDAA00107FF1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D6B26DA77302F44F42C7EF17 /* libPods-Aftership-iOS-SDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Aftership-iOS-SDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D899381F94587AE2282D9F8B /* Pods-Aftership-iOS-SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aftership-iOS-SDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aftership-iOS-SDK/Pods-Aftership-iOS-SDK.debug.xcconfig"; sourceTree = "<group>"; };
 		EFC14602013C4F17BC160B19 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F04FD154479B99D9103BC427 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		FFABF00285A571655D954DA7 /* AftershipTracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AftershipTracking.m; sourceTree = "<group>"; };
@@ -167,6 +175,7 @@
 			files = (
 				FFABFD9EED589B82BBD9F051 /* Foundation.framework in Frameworks */,
 				5FCA4A82026944DDB86EA35B /* libPods.a in Frameworks */,
+				B88FF470B1AA071CE4BA6587 /* libPods-Aftership-iOS-SDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +187,7 @@
 				FFABF6BF92328A98E68B554F /* Foundation.framework in Frameworks */,
 				FFABF2DF54278A8B27A9962E /* UIKit.framework in Frameworks */,
 				FFABF9E8AF7D03C7A811168E /* libAftership-iOS-SDK.a in Frameworks */,
+				A724AF6C4906D0376044B209 /* libPods-Aftership-iOS-SDK-Aftership-iOS-SDKTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +199,10 @@
 			children = (
 				F04FD154479B99D9103BC427 /* Pods.debug.xcconfig */,
 				37A8C0CBA5861A773C570748 /* Pods.release.xcconfig */,
+				D899381F94587AE2282D9F8B /* Pods-Aftership-iOS-SDK.debug.xcconfig */,
+				7A615BF844B41AADFF1F6A0F /* Pods-Aftership-iOS-SDK.release.xcconfig */,
+				B4BD737688545729744D30FB /* Pods-Aftership-iOS-SDK-Aftership-iOS-SDKTests.debug.xcconfig */,
+				C73E5EEA42CC090FE728086C /* Pods-Aftership-iOS-SDK-Aftership-iOS-SDKTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -207,6 +221,8 @@
 				FFABFB3FB540699BFDCA04C6 /* XCTest.framework */,
 				FFABFD1C5DDDC4C3FFC9EBBC /* UIKit.framework */,
 				EFC14602013C4F17BC160B19 /* libPods.a */,
+				D6B26DA77302F44F42C7EF17 /* libPods-Aftership-iOS-SDK.a */,
+				4E4AB880DE0585AC40284B8A /* libPods-Aftership-iOS-SDK-Aftership-iOS-SDKTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -410,11 +426,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FFABFA8D03F41E9B6981C152 /* Build configuration list for PBXNativeTarget "Aftership-iOS-SDK" */;
 			buildPhases = (
-				4EAF76F3258741E897AD178F /* Check Pods Manifest.lock */,
+				4EAF76F3258741E897AD178F /* [CP] Check Pods Manifest.lock */,
 				FFABF11C6D39E17C427BC47A /* Sources */,
 				FFABF09153ECED8A32D857AB /* Frameworks */,
 				FFABF455B54BD37CB9C6744C /* CopyFiles */,
-				E89B46DD0D2446248722A874 /* Copy Pods Resources */,
+				E89B46DD0D2446248722A874 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -429,11 +445,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FFABFBB232D0AC9A80EC5746 /* Build configuration list for PBXNativeTarget "Aftership-iOS-SDKTests" */;
 			buildPhases = (
-				FF2800901133434EB76966C5 /* Check Pods Manifest.lock */,
+				FF2800901133434EB76966C5 /* [CP] Check Pods Manifest.lock */,
 				FFABFE97D9C2890DF3BB7E45 /* Sources */,
 				FFABFBA966F82E4FAD7EEED5 /* Frameworks */,
 				FFABF7217703C2587C998EEE /* Resources */,
-				6FB76633841A4CDD84F03CDE /* Copy Pods Resources */,
+				6FB76633841A4CDD84F03CDE /* [CP] Copy Pods Resources */,
+				754094FC4AA04CCE3620E9E1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -483,63 +500,78 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4EAF76F3258741E897AD178F /* Check Pods Manifest.lock */ = {
+		4EAF76F3258741E897AD178F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${SRCROOT}/Podfile.lock\" \"${SRCROOT}/Pods/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		6FB76633841A4CDD84F03CDE /* Copy Pods Resources */ = {
+		6FB76633841A4CDD84F03CDE /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aftership-iOS-SDK-Aftership-iOS-SDKTests/Pods-Aftership-iOS-SDK-Aftership-iOS-SDKTests-resources.sh\"\n";
 		};
-		E89B46DD0D2446248722A874 /* Copy Pods Resources */ = {
+		754094FC4AA04CCE3620E9E1 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aftership-iOS-SDK-Aftership-iOS-SDKTests/Pods-Aftership-iOS-SDK-Aftership-iOS-SDKTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FF2800901133434EB76966C5 /* Check Pods Manifest.lock */ = {
+		E89B46DD0D2446248722A874 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aftership-iOS-SDK/Pods-Aftership-iOS-SDK-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF2800901133434EB76966C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -693,7 +725,7 @@
 		};
 		FFABF913A6A9DE30819E66C9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37A8C0CBA5861A773C570748 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 7A615BF844B41AADFF1F6A0F /* Pods-Aftership-iOS-SDK.release.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/Aftership_iOS_SDK.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -709,7 +741,7 @@
 		};
 		FFABF9C2621942BA4500943B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F04FD154479B99D9103BC427 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = B4BD737688545729744D30FB /* Pods-Aftership-iOS-SDK-Aftership-iOS-SDKTests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -727,7 +759,7 @@
 		};
 		FFABFA8725935BB08EDBE289 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F04FD154479B99D9103BC427 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = D899381F94587AE2282D9F8B /* Pods-Aftership-iOS-SDK.debug.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/Aftership_iOS_SDK.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -743,7 +775,7 @@
 		};
 		FFABFEAA7DF4A8A6A320B9F4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37A8C0CBA5861A773C570748 /* Pods.release.xcconfig */;
+			baseConfigurationReference = C73E5EEA42CC090FE728086C /* Pods-Aftership-iOS-SDK-Aftership-iOS-SDKTests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
